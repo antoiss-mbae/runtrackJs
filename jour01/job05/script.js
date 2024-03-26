@@ -1,9 +1,13 @@
+// Déclaration de la fonction afficherJoursSemaines
 function afficherJoursSemaines() {
-    // Création du tableau des jours de la semaine
+    // Création d'un tableau contenant les jours de la semaine
     var joursSemaines = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"];
 
-    // Affichage des jours de la semaine à l'aide d'une boucle for
+    // Boucle for pour parcourir et afficher chaque jour de la semaine
     for (var i = 0; i < joursSemaines.length; i++) {
         console.log(joursSemaines[i]);
     }
 }
+
+// Appel de la fonction afficherJoursSemaines
+afficherJoursSemaines();
