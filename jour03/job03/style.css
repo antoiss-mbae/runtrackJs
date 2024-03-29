@@ -1,0 +1,33 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.empty {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+}
+
+#message {
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+}

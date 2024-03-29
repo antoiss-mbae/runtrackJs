@@ -1,0 +1,32 @@
+/* CSS pour l'arc-en-ciel */
+#arc-en-ciel {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#arc-en-ciel img {
+    width: 50px;
+    height: auto;
+}
+
+/* CSS pour le conteneur */
+#conteneur {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+/* CSS pour les messages */
+#message {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.vert {
+    color: green;
+}
+.rouge {
+    color: red;
+}
